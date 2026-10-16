@@ -1,0 +1,31 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/bin/
+/dist/
+
+# `go test -c`
+*.test
+
+# Coverage
+*.out
+coverage.txt
+coverage.html
+
+# Go workspace
+go.work
+go.work.sum
+
+# Local env
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# JetBrains
+.idea/
+*.iml
